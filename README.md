@@ -3,7 +3,7 @@ Nama    : Akhmad Zainal Afif
 NIM     : 264107060026
 kelas   : SIB 1B
 
-Hasil Uji Studi Kasus 2 oleh <Nama>
+Hasil Uji Studi Kasus 2 oleh <Azam>
 | No | Jenis | Dokumen | Juara/Dana | Output | Sesuai? |
 |----|-------|---------|------------|--------|---------|
 | 1  |BAKORMA|    3    |     1      | !Berhak| Ya      |
