@@ -19,7 +19,21 @@ public class StudiKasus203 {
         System.out.print("Peringkat juara : ");
         juara = sc.nextInt();
 
-        
+        if (kegiatan.equalsIgnoreCase("BELMAWA") || kegiatan.equalsIgnoreCase("BAKORMA") || kegiatan.equalsIgnoreCase("MANDIRI")) {
+            if (juara >= 1 && juara <=3 && dokumen >= 4 && dokumen <=4) {
+                status = 1;
+            } else {
+                status = 0;
+            }
+        } else if (kegiatan.equalsIgnoreCase("PKM")) {
+            if (dokumen >= 4 && dokumen <= 4) {
+                status = 1;
+            } else {
+                status = 0;
+            }
+        } else {
+            status = 0;
+        }
 
 
 
